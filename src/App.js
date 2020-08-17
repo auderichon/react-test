@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Temperature from "./pages/Temperature";
 import CustomImg from "./pages/CustomImg";
 
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/temperature" component={Temperature} />
-          <Route exact path="/" component={CustomImg} />
+          <Route exact path="/customize-image" component={CustomImg} />
         </Switch>
       </BrowserRouter>
     </div>
